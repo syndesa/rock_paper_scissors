@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Robot 9000';
+    src: url('/home/dev/.local/share/fonts/Robot 9000.ttf');
+}
+
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Robot 9000';
+}
+.con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.scoreplayer, .scorecpu {
+    flex: auto;
+    align-self: center;
+    font-size: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    white-space: nowrap;
+}
+
+
+.container  {
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cpu, .you {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 25%;
+    width: 25%;
+    
+}
+#Rock, #Paper, #Scissors {
+    width: 15%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+#Rock:hover, #Paper:hover, #Scissors:hover {
+    background-color: lightblue;
+}
+
+
+
+#rockvs, #papervs, #scissorsvs { 
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.message {
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ctrmsg, .leftmsg, .rightmsg {
+    width: 33%;
+    height: auto;
+    align-self: center;
+    align-items: center;
+}
